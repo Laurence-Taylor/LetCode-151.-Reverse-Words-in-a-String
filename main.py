@@ -1,11 +1,11 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
         # split the string
-        words = s.split()
+        s = s.split()
         # reverse the string
-        reversed_words = reversed(words)
+        s = reversed(s)
         # join the string and return it
-        return " ".join(reversed_words)
+        return " ".join(s)
     
 if __name__ == '__main__':
     sol = Solution()
